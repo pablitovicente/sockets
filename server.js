@@ -40,7 +40,7 @@ const broadcast = (sender, data) => {
   targetUsers.forEach((aUser) => {
     if(aUser !== sender) { // Do not echo back!
       logger.info('Sending data to: %s', aUser.id);
-      aUser.write(data); // Send the data over the socket!
+      aUser.write(`${sender.id} says: ${data}`); // Send the data over the socket!
     }
   });
 };

@@ -9,6 +9,7 @@
   "author": "Pablo Vicente",
   "license": "ISC",
   "dependencies": {
+    "lorem-ipsum": "1.0.4",
     "uuid": "3.2.1",
     "winston-color": "1.0.0"
   }
