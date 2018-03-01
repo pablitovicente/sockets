@@ -1,0 +1,15 @@
+{
+  "name": "socks",
+  "version": "1.0.0",
+  "description": "Socks Communications",
+  "main": "severs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Vicente",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "3.2.1",
+    "winston-color": "1.0.0"
+  }
+}
